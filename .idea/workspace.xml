@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="vegetableandfruit:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5b212b7-57a3-4366-a4b0-5d284ca62843" name="Default Changelist" comment="the first 01">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/vegetableandfruit_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/vegetableandfruit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/CategoryJS/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/CategoryJS/onloada.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/dao/GoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/dao/implement/ImplementGoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/dao/implement/ImplementOrdersDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/dao/implement/ImplementUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/entity/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/entity/Orders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/service/OrdersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/web/GoodsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/web/OrdersServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/backstageManagement/web/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/frontstageManagement/dao/GoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/frontstageManagement/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/frontstageManagement/dao/implement/ImplementGoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/frontstageManagement/dao/implement/ImplementUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/frontstageManagement/entity/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/frontstageManagement/entity/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/frontstageManagement/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/frontstageManagement/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/frontstageManagement/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/frontstageManagement/web/GoodsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/frontstageManagement/web/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/util/CheckImgServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/util/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/util/FileUploadUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/util/JDBCUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/util/JSONResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/util/JsonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/classes/cn/gok/util/MyRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/annotations-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/catalina-ant.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/catalina-ha.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/catalina-storeconfig.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/catalina-tribes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/catalina.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/ecj-4.6.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/el-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/fastjson-1.2.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/jasper-el.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/jasper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/jaspic-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/jsp-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/junit-4.12(1).jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-coyote.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-dbcp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-i18n-de.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-i18n-es.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-i18n-fr.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-i18n-ja.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-i18n-ko.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-i18n-ru.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-i18n-zh-CN.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-jdbc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-jni.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-util-scan.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-util.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/tomcat-websocket.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/lib/websocket-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/css/dropSort.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/css/errorPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/css/frameStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/css/iconfontStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/css/jquery.mCustomScrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/css/login1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/css/reportForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/css/timePage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/fastbuy.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/frame.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/area.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/cframe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/china.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/ddsort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/frame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/jquery-ui-1.10.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/jquery.mCustomScrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/jquery.ztree.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/jquery.ztree.excheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/printThis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/province.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/framework/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/bgg11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/bgg22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/cardFMImgError.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/cardZMImgError.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/fullScreenBut_BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/goodsPIC1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/goodsPIC2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/goodsPIC3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/goodsPIC4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/guo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/login_admin_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/login_fj_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/login_sh_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/other/maintain_bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/other/maintain_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/other/maintain_pic_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/top_jt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/images/yyzzImgError.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/js/out_intoData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/js/timePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/js/treetable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/tgls/goodsManage/goods_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/tgls/goodsManage/goods_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/tgls/goodsManage/goods_update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/tgls/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/tgls/modify_password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/tgls/ordersManage/orders_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/tgls/ordersManage/orders_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/backstage/tgls/ordersManage/orders_update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/error/activeuser_error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/error/registuser_error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/CSS/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/CSS/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/CSS/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/JS/bg-canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/JS/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/JS/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/JS/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/JS/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/11111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/33333.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/44444.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/55555.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/66666.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/add11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/bana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/dudu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/dudu3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/fup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/gou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/gy1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/gy2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/gy3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/gy4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/gy5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/jk1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/jk2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/jk3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/jk4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/jk5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/lem.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/rd1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/rd2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/rd3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/rd4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/rd5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/timg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/yx1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/yx2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/yx3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/yx4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/home/img/yx5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/productInfo_user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/regist_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/showcart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/update_password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/vegetableandfruit_war_exploded/userInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/imgs/1609300854.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/dao/implement/ImplementGoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/dao/implement/ImplementOrdersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/dao/implement/ImplementUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/entity/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/service/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/web/GoodsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/web/OrdersServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/backstageManagement/web/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/frontstageManagement/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/frontstageManagement/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/frontstageManagement/dao/implement/ImplementGoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/frontstageManagement/dao/implement/ImplementUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/frontstageManagement/entity/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/frontstageManagement/entity/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/frontstageManagement/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/frontstageManagement/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/frontstageManagement/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/frontstageManagement/web/GoodsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/frontstageManagement/web/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/util/CheckImgServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/util/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/util/FileUploadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/util/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/util/JSONResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gok/util/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/dao/GoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/dao/implement/ImplementGoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/dao/implement/ImplementOrdersDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/dao/implement/ImplementUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/entity/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/entity/Orders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/service/OrdersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/web/GoodsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/web/OrdersServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/backstageManagement/web/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/frontstageManagement/dao/GoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/frontstageManagement/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/frontstageManagement/dao/implement/ImplementGoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/frontstageManagement/dao/implement/ImplementUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/frontstageManagement/entity/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/frontstageManagement/entity/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/frontstageManagement/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/frontstageManagement/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/frontstageManagement/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/frontstageManagement/web/GoodsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/frontstageManagement/web/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/util/CheckImgServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/util/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/util/FileUploadUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/util/JDBCUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/util/JSONResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/util/JsonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/gok/util/MyRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vegetableandfruit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/CategoryJS/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/CategoryJS/onloada.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/fastjson-1.2.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.12(1).jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/css/dropSort.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/css/errorPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/css/frameStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/css/iconfontStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/css/jquery.mCustomScrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/css/login1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/css/reportForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/css/timePage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/fastbuy.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/frame.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/area.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/cframe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/china.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/ddsort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/frame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/jquery-ui-1.10.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/jquery.mCustomScrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/jquery.ztree.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/jquery.ztree.excheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/printThis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/province.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/framework/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/bgg11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/bgg22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/cardFMImgError.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/cardZMImgError.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/fullScreenBut_BG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/goodsPIC1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/goodsPIC2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/goodsPIC3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/goodsPIC4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/guo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/login_admin_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/login_fj_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/login_sh_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/other/maintain_bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/other/maintain_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/other/maintain_pic_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/top_jt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/images/yyzzImgError.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/js/out_intoData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/js/timePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/js/treetable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/tgls/goodsManage/goods_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/tgls/goodsManage/goods_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/tgls/goodsManage/goods_update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/tgls/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/tgls/modify_password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/tgls/ordersManage/orders_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/tgls/ordersManage/orders_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/backstage/tgls/ordersManage/orders_update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/error/activeuser_error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/error/registuser_error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/CSS/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/CSS/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/CSS/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/JS/bg-canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/JS/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/JS/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/JS/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/JS/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/11111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/33333.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/44444.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/55555.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/66666.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/add11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/bana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/dudu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/dudu3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/fup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/gou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/gy1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/gy2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/gy3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/gy4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/gy5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/jk1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/jk2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/jk3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/jk4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/jk5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/lem.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/rd1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/rd2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/rd3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/rd4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/rd5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/timg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/yx1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/yx2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/yx3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/yx4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/home/img/yx5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/productInfo_user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/regist_success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/showcart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/update_password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/userInfo.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1mJ9sOwF9BSD8djpNAVR8zq1mHu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProject\vegetableandfruit\src\main\java" />
+      <recent name="D:\MyProject\vegetableandfruit\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyProject\vegetableandfruit\web\home" />
+      <recent name="D:\MyProject\vegetableandfruit\web" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.58">
+    <configuration name="GoodsService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.gok.frontstageManagement.service.GoodsService" />
+      <module name="vegetableandfruit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.gok.frontstageManagement.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.58" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.58" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/vegetableandfruit_war_exploded/main.jsp" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="vegetableandfruit:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/vegetableandfruit_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_vegetableandfruit" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58639" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="vegetableandfruit:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GoodsService" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5b212b7-57a3-4366-a4b0-5d284ca62843" name="Default Changelist" comment="" />
+      <created>1609201032745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609201032745</updated>
+      <workItem from="1609201036135" duration="19242000" />
+      <workItem from="1609233603558" duration="604000" />
+      <workItem from="1609236910534" duration="6586000" />
+      <workItem from="1609252497620" duration="1333000" />
+      <workItem from="1609286878523" duration="10815000" />
+      <workItem from="1609309499260" duration="9371000" />
+      <workItem from="1609328978873" duration="3544000" />
+      <workItem from="1609373197959" duration="14941000" />
+      <workItem from="1609459705349" duration="12975000" />
+      <workItem from="1609545970272" duration="11270000" />
+      <workItem from="1609635729496" duration="101000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="the first 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="the first 01" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="380" y="96" key="#Project_Structure" timestamp="1609203566634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="380" y="96" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1609203566634" />
+    <state x="231" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609253758162">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="231" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609253758162" />
+    <state x="397" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1609201106430">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="397" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1609201106430" />
+    <state x="369" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609551714742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="369" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1609551714742" />
+    <state x="372" y="6" key="CommitChangelistDialog2" timestamp="1609635813490">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609635813490" />
+    <state x="196" y="153" key="FileChooserDialogImpl" timestamp="1609313899324">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="196" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609313899324" />
+    <state width="1024" height="79" key="GridCell.Tab.0.bottom" timestamp="1609582791696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="79" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609582791696" />
+    <state width="1024" height="79" key="GridCell.Tab.0.center" timestamp="1609582791696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="79" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609582791696" />
+    <state width="1024" height="79" key="GridCell.Tab.0.left" timestamp="1609582791696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="79" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609582791696" />
+    <state width="1024" height="79" key="GridCell.Tab.0.right" timestamp="1609582791696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="79" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609582791696" />
+    <state width="1024" height="79" key="GridCell.Tab.1.bottom" timestamp="1609582791697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="79" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609582791697" />
+    <state width="1024" height="79" key="GridCell.Tab.1.center" timestamp="1609582791697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="79" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1609582791697" />
+    <state width="1024" height="79" key="GridCell.Tab.1.left" timestamp="1609582791696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="79" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1609582791696" />
+    <state width="1024" height="79" key="GridCell.Tab.1.right" timestamp="1609582791697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="79" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609582791697" />
+    <state width="1024" height="79" key="GridCell.Tab.2.bottom" timestamp="1609582791698">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="79" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609582791698" />
+    <state width="1024" height="79" key="GridCell.Tab.2.center" timestamp="1609582791697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="79" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1609582791697" />
+    <state width="1024" height="79" key="GridCell.Tab.2.left" timestamp="1609582791697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="79" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1609582791697" />
+    <state width="1024" height="79" key="GridCell.Tab.2.right" timestamp="1609582791698">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="79" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1609582791698" />
+    <state x="318" y="93" key="Maven.ArtifactSearchDialog" timestamp="1609203390179">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="318" y="93" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1609203390179" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1609635830630">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609635830630" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1609635841465">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609635841465" />
+    <state x="241" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1609635743940">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="241" y="261" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1609635743940" />
+    <state x="447" y="11" width="642" height="801" key="find.popup" timestamp="1609290626396">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="11" width="642" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609290626396" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609582228946">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609582228946" />
+  </component>
+</project>

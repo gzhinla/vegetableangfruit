@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="vegetableandfruit">
+    <CLASSES>
+      <root url="file://D:/apache-tomcat-8.5.58/lib" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$" />
+    </JAVADOC>
+    <SOURCES />
+    <jarDirectory url="file://D:/apache-tomcat-8.5.58/lib" recursive="false" />
+  </library>
+</component>
